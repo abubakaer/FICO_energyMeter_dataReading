@@ -8,6 +8,7 @@
 #include "global_constants.h"
 #include "http_manager.h"
 
+//code starts from here 
 
 enum OperationState { NORMAL_OPERATION, CONFIG_MODE_INIT, CONFIG_MODE_ACTIVE, CONFIG_MODE_DONE };
 OperationState currentState = NORMAL_OPERATION;
